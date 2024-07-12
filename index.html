@@ -6,14 +6,15 @@
     <title>Aerial Yoga</title>
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/cssreset.css">
+    <link rel="stylesheet" href="css/w390.css">
 </head>
 <body>
     <div class="head">
-        <ul>
-            <li><a href="#">老師介紹</a></li>
-            <li><a href="#">教學課程介紹</a></li>
-            <li><a href="#">授課教室介紹</a></li>
-            <li><a href="#">每月課表</a></li>
+        <ul class="deskTop">
+            <li class="deskTop"><a href="#">老師介紹</a></li>
+            <li class="deskTop"> <a href="#">教學課程介紹</a></li>
+            <li class="deskTop"><a href="#">授課教室介紹</a></li>
+            <li class="deskTop"><a href="#">每月課表</a></li>
         </ul>
         <div class="headTitle">
             <h1>
@@ -24,6 +25,24 @@
          <div class="headImg">
             <img src="img/DreamShaper_v7_floating_cloud_beds_0.jpg" alt="">
          </div>
+
+         <div class="headerham">
+            <input type="checkbox" id="toggler">
+            <label for="toggler">
+                <div class="hamburger-container">
+                    <span></span>
+                    <span></span>
+                </div>
+            </label>
+            <div class="nav-items">
+                <ul>
+                    <li class=""><a href="#">老師介紹</a></li>
+                    <li class=""><a href="#">教學課程介紹</a></li>
+                    <li class=""><a href="#">授課教室介紹</a></li>
+                    <li class=""><a href="#">每月課表</a></li>
+                </ul>
+            </div>
+        </div>
     </div>
     
     <div class="container">
@@ -64,18 +83,51 @@
         </div>
         <div class="line"></div>
 
-        <div class="where">
-            <h1>哪裡上課</h1>
-            <div class="location">
-                <div class="location1">
-                <h2>The O.Show 南屯館</h2>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3640.5224810491145!2d120.61461427590598!3d24.15340247318446!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34693e7501cd28d5%3A0x836ae16db1f7094c!2zNDA45Y-w5Lit5biC5Y2X5bGv5Y2A5paH5bGx5Y2B5LiA6KGXMTXomZ8!5e0!3m2!1szh-TW!2stw!4v1720453041432!5m2!1szh-TW!2stw" width="400" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-             </div>
-                <div class="location2">
-                <h2>The O.Show 西屯館</h2>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3639.8065268459013!2d120.60953078563041!3d24.17851711647762!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346915ff52896573%3A0xa75a69f1b5399a96!2zNDA35Y-w5Lit5biC6KW_5bGv5Y2A5bel5qWt5Y2A5LiA6LevNjYtNeiZnw!5e0!3m2!1szh-TW!2stw!4v1720453171387!5m2!1szh-TW!2stw" width="400" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="section">
+            <h2>我們的教室位置</h2>
+            <div class="locations">
+                <div class="card">
+                    <div class="cardImg">
+                        <img src="img/DreamShaper_v7_floating_cloud_beds_0.jpg" alt="">
+                    </div>
+                    <div class="cardDis">
+                    <h3>The O.Show 南屯館 </h3>
+                    <p>台中市南屯區文山十一街15號3F</p>
+                    <a href="https://www.google.com/maps/place/408%E5%8F%B0%E4%B8%AD%E5%B8%82%E5%8D%97%E5%B1%AF%E5%8D%80%E6%96%87%E5%B1%B1%E5%8D%81%E4%B8%80%E8%A1%9715%E8%99%9F3f/@24.1533976,120.6146089,17z/data=!3m1!4b1!4m5!3m4!1s0x34693e7501cd28d5:0x1d0673ddf59a1101!8m2!3d24.1533976!4d120.6171892?entry=ttu" target="_blank"><button>查看地圖</button></a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="cardImg">
+                        <img src="img/DreamShaper_v7_floating_cloud_beds_0.jpg" alt="">
+                    </div>
+                    <div class="cardDis">
+                    <h3>The O.Show 北區館</h3>
+                    <p>台中市北區梅亭街643號</p>
+                    <a href="https://www.google.com/maps/place/404%E5%8F%B0%E4%B8%AD%E5%B8%82%E5%8C%97%E5%8D%80%E6%A2%85%E4%BA%AD%E8%A1%97643%E8%99%9F/@24.1603269,120.6635815,17z/data=!3m1!4b1!4m6!3m5!1s0x34693d78a7b47b3b:0xced0eddcec91d174!8m2!3d24.1603269!4d120.6661618!16s%2Fg%2F11c26rcv45?entry=ttu" target="_blank"><button>查看地圖</button></a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="cardImg">
+                        <img src="img/DreamShaper_v7_floating_cloud_beds_0.jpg" alt="">
+                    </div>
+                    <div class="cardDis">
+                    <h3>Flying Shine 飛嚮空中藝術瑜伽</h3>
+                    <p>台中市西屯區工業區一路66-5號</p>
+                    <a href="https://www.google.com/maps/place/407%E5%8F%B0%E4%B8%AD%E5%B8%82%E8%A5%BF%E5%B1%AF%E5%8D%80%E5%B7%A5%E6%A5%AD%E5%8D%80%E4%B8%80%E8%B7%AF66-5%E8%99%9F/data=!4m2!3m1!1s0x346915ff52896573:0xa75a69f1b5399a96?sa=X&ved=1t:242&ictx=111" target="_blank"><button> 查看地圖</button></a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="cardImg">
+                        <img src="img/DreamShaper_v7_floating_cloud_beds_0.jpg" alt="">
+                    </div>
+                    <div class="cardDis">
+                    <h3>中科終身學習中心</h3>
+                    <p>台中市西屯區國安一路168號四樓</p>
+                    <a href="https://www.google.com/maps/place/407%E5%8F%B0%E4%B8%AD%E5%B8%82%E8%A5%BF%E5%B1%AF%E5%8D%80%E5%9C%8B%E5%AE%89%E4%B8%80%E8%B7%AF168%E8%99%9F/@24.1921753,120.6104805,18z/data=!3m1!4b1!4m6!3m5!1s0x34693df17e00c615:0xc1c3e2fa10ab7ef3!8m2!3d24.1921753!4d120.6117706!16s%2Fg%2F11c22vy8tg?entry=ttu" target="_blank"><button> 查看地圖</button></a>
+                    </div>
+                </div>
             </div>
-            </div>
+        </div>
 
         </div>
        

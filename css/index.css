@@ -38,8 +38,9 @@ body{
     text-decoration: none;
     color: rgb(49, 49, 46);
     font-weight: bold;
-    font-size: 20px;
+    font-size: 16px;
     transition:  1s;
+    
 }
 
 .head ul :hover{
@@ -81,6 +82,7 @@ body{
     margin-left:75px;
     border-radius: 10%;
     transition:  1s;
+    
 }   
 .headTitle a:hover{
     background: #dac860;
@@ -258,4 +260,53 @@ body{
 
 .fade-in.visible {
     opacity: 1;
+}
+
+.card {
+    background-color:#efeee7;
+    border-radius: 10px;
+    width: 350px;
+    height: 400px;
+    text-align: center;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.card button {
+    margin-top: 20%;
+    padding: 10px 15px;
+    font-size: 14px;
+    color: #fff;
+    background-color: #2544319a;
+    border: none;
+    cursor: pointer;
+   border-radius: 10px;
+}
+
+.section h2{
+    text-align: center;
+    font-size: 28px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.locations{
+    display: flex;
+    justify-content: center;
+}
+
+.cardImg{
+    position: absolute;
+    filter: blur(3px);
+}
+.cardImg img{
+    border-radius: 10px;
+    width: 350px;
+    height: 400px;
+}
+.cardDis{
+    position: relative;
+    top: 40%;
+    font-weight: bold;
+    color: #2c222a;
+    font-size: 20px;
 }
