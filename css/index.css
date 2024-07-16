@@ -3,7 +3,9 @@ body{
     background-color: #efeee7;
     
 }
-
+.nav-items{
+    display: none;
+}
 .line{
     height: 3px;
     width: 100%;
