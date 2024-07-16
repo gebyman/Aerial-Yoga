@@ -3,6 +3,7 @@ body{
     background-color: #efeee7;
     
 }
+
 .line{
     height: 3px;
     width: 100%;
@@ -34,7 +35,7 @@ body{
     
     
 }
-.head ul li a {
+.desktop a{
     text-decoration: none;
     color: rgb(49, 49, 46);
     font-weight: bold;
@@ -309,4 +310,16 @@ body{
     font-weight: bold;
     color: #2c222a;
     font-size: 20px;
+    
+}
+.cardDis button{
+    transition: 1s;
+
+}
+.cardDis a :hover{
+    color: #282222;
+    transition: 0.2s ease-in-out;
+}
+#toggler{
+    display: none;
 }

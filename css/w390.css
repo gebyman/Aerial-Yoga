@@ -2,16 +2,9 @@
    body{
     overflow-x: hidden;
    }
-  
-}
-.deskTop a{
-    display: none ;
-}
 
 
-.headImg img{
-    position: absolute;
-}
+
 
 .headerham {
     position: relative;
@@ -28,7 +21,7 @@
     height: 40px;
     display: block;
     position: absolute;
-    top: 16px;
+    top: -10px;
     z-index: 7000;
 }
 .hamburger-container span {
@@ -56,25 +49,29 @@
     display: block;
 }
 .nav-items {
-    background-color: #efeee7;
+    background-color: #eae7d1;
     color: #000;
     width: 100%;
     height: 100vh;
     position: absolute;
-    
-    right: 10px;
-    left: 10px;
+    top: -100%;
+    left:5px;
     transform: scaleY(0);
     transition: transform .3s ease-in-out .3s, opacity .3s ease-in-out .3s;
     transform-origin: 50% 0;
     opacity: 0;
     border-radius: 10px;
-
-    z-index: 6000;
+    z-index: 600;
 }
 #toggler:checked ~ .nav-items {
     transform: scaleY(1);
     opacity: 1;
+}
+.mobile a{
+    font-size: 36px;
+    text-decoration: none;
+    color: #837f7f;
+    margin-right: 10%;
 }
 .nav-items ul {
     display: flex;
@@ -84,10 +81,17 @@
 }
 .nav-items ul li {
     line-height: 60px;
-    font-size: 36px;
     font-weight: bold;
     margin-right: 80%;
-    font-size: 26px;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    color: #000  ;
+    line-height: 60px;
+    
+}
+.nat-items li a{
+    font-size: 650px;
 }
 #toggler{
     display: none;
@@ -95,11 +99,23 @@
 /*以上漢堡*/
 .headImg img{
     width: 100%;
-    height: 40%;
+    height: 60%;
+}
+.headImg img{
+    position: absolute;
+    top: -0px;
 }
 .container{
     margin-top: 100%;
 }
+
+.head ul{
+    position:relative;
+    top: 75px;
+    
+}
+
+
 .headTitle{
     position: relative;
     z-index: 100;
@@ -122,3 +138,62 @@
     border-radius: 10%;
    
 }  
+.container{
+    margin-top: 120%;
+    
+}
+.content {
+    margin-bottom: 20%;
+}
+.content h2{
+    font-size: 24px;
+}
+.intro {
+    margin:20% 0 20% 0 ;
+    display: flex;
+    flex-direction: column-reverse;
+}
+.intro img{
+    width: 200px;
+    height: 150px;
+}
+.intro h1{
+    margin: 0 auto;
+    margin-top: 30px;
+    
+}
+
+.provide h2{
+    font-size: 20px;
+    width: 340px;
+}
+.locations{
+    display: flex;
+    flex-direction: column;   
+}
+.card{
+    margin-bottom: 5%;
+}
+.card img{
+    width: 100%;
+
+}
+.cardImg{
+    margin-right: 10px;
+}
+.cardDis{
+    margin-left: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.list{
+    text-align: center;
+}
+}
