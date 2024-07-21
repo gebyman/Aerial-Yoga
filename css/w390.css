@@ -1,20 +1,14 @@
-@media (max-width: 391px){
-   body{
-    overflow-x: hidden;
-   }
-
-
-
-
-.headerham {
-    position: relative;
-    
-    height: 44px;
-    padding: 0 16px;
-    display: block;
-    margin-right: 10px;
-    border-radius: 15%;
-}
+@media (max-width: 575.98px){
+   
+    .headerham {
+        position: relative;
+        height: 44px;
+        padding: 0 16px;
+        display: block;
+        margin-right: 10px;
+        border-radius: 15%;
+        z-index: 1000; /* 确保它在其他元素之上 */
+    }
 
 .hamburger-container {
     width: 40px;
@@ -98,11 +92,10 @@
     display: none;
 }
 /*以上漢堡*/
+
 .headImg img{
     width: 100%;
-    height: 60%;
-}
-.headImg img{
+    height:80%;
     position: absolute;
     top: -0px;
 }
@@ -115,7 +108,13 @@
     top: 75px;
     
 }
-
+.desktop ul li{
+    margin-right: 70px;
+}
+.desktop a{
+    width: 12px;
+   
+}
 
 .headTitle{
     position: relative;
@@ -147,7 +146,12 @@
     margin-bottom: 20%;
 }
 .content h2{
-    font-size: 24px;
+    font-size: 16px;
+    
+}
+.content h3{
+    font-size: 16px;
+   
 }
 .intro {
     margin:20% 0 20% 0 ;
@@ -171,6 +175,14 @@
 .locations{
     display: flex;
     flex-direction: column;   
+}
+
+.carousel{
+    width: 360px;
+}
+
+.section {
+    width: 340px;
 }
 .card{
     margin-bottom: 5%;

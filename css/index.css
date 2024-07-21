@@ -103,7 +103,7 @@ body{
 
 .content{
     text-align: center;
-    line-height: 36px;
+    line-height: 50px;
 }
 
 .content h2{
@@ -206,27 +206,7 @@ body{
 }
 /*以上輪播*/
 
-.where{
-    text-align: center;
-    margin-top: 10%;
-    margin-bottom: 10%;
-}
-.where h1{
-    color: #837f7f;
-    font-size: 38px;
-    font-weight: 600;
-}
-.location{
-    display: flex;
-    justify-content: center;
-    margin-top: 5%;
-}
-.location1{
-    margin-right: 2%;
-}
-.location2{
-    margin-left: 2%;
-}
+
 .footer{
 	background: #648b86d8;
 	height: 180px;
@@ -234,6 +214,7 @@ body{
     padding-left: 5%;
     margin-top: 5%;
     justify-content: space-around;
+    padding-bottom: px;
 }
 .footerLine{
 	height: 3px;
@@ -265,63 +246,9 @@ body{
     opacity: 1;
 }
 
-.card {
-    background-color:#efeee7;
-    border-radius: 10px;
-    width: 350px;
-    height: 400px;
-    text-align: center;
-    margin-right: 10px;
-    margin-left: 10px;
-}
-.card button {
-    margin-top: 20%;
-    padding: 10px 15px;
-    font-size: 14px;
-    color: #fff;
-    background-color: #2544319a;
-    border: none;
-    cursor: pointer;
-   border-radius: 10px;
-}
 
-.section h2{
-    text-align: center;
-    font-size: 28px;
-    margin-top: 5%;
-    margin-bottom: 5%;
-}
 
-.locations{
-    display: flex;
-    justify-content: center;
-}
-
-.cardImg{
-    position: absolute;
-    filter: blur(3px);
-}
-.cardImg img{
-    border-radius: 10px;
-    width: 350px;
-    height: 400px;
-}
-.cardDis{
-    position: relative;
-    top: 40%;
-    font-weight: bold;
-    color: #2c222a;
-    font-size: 20px;
-    
-}
-.cardDis button{
-    transition: 1s;
-
-}
-.cardDis a :hover{
-    color: #282222;
-    transition: 0.2s ease-in-out;
-}
+  
 #toggler{
     display: none;
 }
