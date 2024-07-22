@@ -112,10 +112,7 @@ body{
     display: flex;
     transition:  1s;
 }
-.card:hover{
-    width: 95%;
-    transform: 1s ease-in;
-}
+
 
 .touch{
     color: #837f7f;
@@ -124,8 +121,8 @@ body{
     writing-mode: vertical-rl;
     font-size: 16px;
 }
-.card:hover .touch{
-   display: none;
+.hidden{
+    display: none;
 }
 .image-placeholder {
   
