@@ -70,7 +70,7 @@ body{
 }
 
 .headTitle{
-    background-color: #f9f9f9d3;
+    background-color: #fdeeedd3;
     height: 500px;
     display: flex;
     flex-direction: column;
@@ -81,12 +81,12 @@ body{
     font-size: 36px;
     font-weight: bold;
     letter-spacing: 10px ;
-    
+    color:#837f7f;
 }
 .headTitle a {
     font-size: 20px;
     text-decoration: none;
-    color: rgb(49, 49, 46);
+    color:#837f7f;
     font-weight: bold; 
     border: 1px solid #837f7f;
     border-radius: 10%;

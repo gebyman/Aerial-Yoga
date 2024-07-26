@@ -10,7 +10,7 @@ body{
     height: 3px;
     width: 300px;
     
-    background: #f6d2ad;
+    background: #d3e7d2;
    
 }
 .head{
@@ -72,7 +72,7 @@ body{
     background-color: #fdeeedd3;
     height: 500px;
     display: flex;
-    flex-direction: column;
+    flex-direction: column; 
     justify-content: center;
     align-items: center;
 }
@@ -89,94 +89,6 @@ body{
     letter-spacing: 5px ;
     color:#837f7f;
 }
-.cardFather {
-    display: flex;
-}
-.text{
-    width: 28%;
-    position: absolute;
-    left: 50%;
-    top: 100%;
-    z-index: 50;
-}
-.text h1{
-    font-size: 20px;
-    font-weight: bold;
-    line-height: 48px;
-    color: #777 ;
-}
-.card {
-    position: relative;
-    z-index: 100;
-    float: top;
-    width: 28%;
-    margin-left: 2%;
-    margin-top: 10%;
-    background-color: #f3eeea;
-    border-radius: 8px;
-    box-shadow: 40px 20px 40px rgba(0, 0, 0, 0.2);
-    overflow: hidden;
-    text-align: center;
-    display: flex;
-    transition:  1s;
-    
-}
-
-
-.touch{
-    color: #837f7f;
-    margin-top: 5%;
-    margin-left: 5px;
-    writing-mode: vertical-rl;
-    font-size: 16px;
-}
-.hidden{
-    display: none;
-}
-.image-placeholder {
-  
-   height: 100%;
-    background-color: #e0e0e0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.image-placeholder img{
-    width: 500px;
-    height: 50%;
-}
-
-.text-content {
-    display: flex;
-    flex-direction: column;
-    height: 700px;
-    margin-top: 2%;
-    margin-left: 25%;
-    margin-right: 25%;
-    line-height: 60px;
-    font-weight: bold;
-    color: #837f7f;
-}
-.text-content h1{
-    font-size: 24px;
-}
-.text-content h3 {
-    margin: 0;
-    font-size: 18px;
-    color: #333;
-}
-
-.text{
-    box-shadow: 100px 40px 20px 30px   rgba(204, 158, 158, 0.2);
-}
-
-.text-content p {
-    margin: 0;
-    font-size: 14px;
-    color: #777;
-}
-
 
 .footer{
 	background: #648b86d8;
@@ -185,7 +97,7 @@ body{
     padding-left: 5%;
     margin-top: 5%;
     justify-content: space-around;
-    padding-bottom: px;
+   
 }
 .footerLine{
 	height: 3px;
@@ -210,3 +122,10 @@ body{
     display: none;
 }
 
+.container{
+    text-align: center;
+    margin: 5% 0 5% 0;
+}
+.container img{
+    border-radius: 5%;
+}

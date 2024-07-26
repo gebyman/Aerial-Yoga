@@ -1,6 +1,6 @@
 body{
     overflow-x: hidden;
-    background-color: #efeee7;
+    background-color: #fde3ccd3;
     
 }
 .nav-items{
@@ -8,45 +8,53 @@ body{
 }
 .line{
     height: 3px;
-    width: 100%;
-    color: #c9bcbc;
-    background: #c7cac9;
-    margin-top: 30px;
+    width: 300px;
+    
+    background: #d3e7d2;
+   
 }
 .head{
     display: flex;   
     flex-direction: column;
     
 }
-.head ul{
+.desktop{
+    position:fixed;
     display: flex;
-    left: 50%;
-    align-items: center;
-    justify-content: center;
-    position: absolute;
-    z-index: 100;
-    width: 50%;
-    height: 20%;
+    justify-content: flex-end;
+    background-color: #f9dbc0d3;
+    height: 60px;
+    width: 100%;
+   z-index: 6000;
 }
-.head ul li{
+.desktop img{
+    width: 100px;
+    height: 60px;
+}
+.desktop ul {
+    display: flex;
+    margin-right: 5%;
+    
+}
+.desktop ul li{
     display: flex;
     justify-content: center;
     align-items: center;
     margin-right: 1%;
     width:  100px;
-    
+    justify-content: space-around;
     
 }
 .desktop a{
     text-decoration: none;
-    color: rgb(49, 49, 46);
+    color: rgb(148, 148, 148);
     font-weight: bold;
     font-size: 16px;
     transition:  1s;
     
 }
 
-.head ul :hover{
+.desktop ul :hover{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -55,50 +63,65 @@ body{
     transition:  0.5s ease-in-out;
     
 }
-.head li a:hover{
-    border-bottom:1px solid rgb(101, 104, 90) ;
+.desktop li a:hover{
+    border-bottom:1px solid rgb(145, 145, 145) ;
     height: 40px;
     
 }
 .headTitle{
-    position: absolute;
-    z-index: 100;
-    width: 45%;
-    top: 30%;
-    margin-left: 44%; 
+    background-color: #fdeeedd3;
+    height: 500px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
 }
 .headTitle h1{
     font-size: 36px;
     font-weight: bold;
-    margin-bottom: 8%;
-    letter-spacing: 40px;
+    letter-spacing: 10px ;
+    color:#837f7f;
 }
-.headTitle a {
-    font-size: 20px;
-    text-decoration: none;
-    color: rgb(49, 49, 46);
+.headTitle h2{
+    margin-top: 1%;
+    font-size: 16px;
     font-weight: bold;
-    width: 100px;
-    height: 100px;
-    border: 1px solid #837f7f;
-    padding: 10px;
-    margin-left:75px;
-    border-radius: 10%;
-    transition:  1s;
-    
-}   
-.headTitle a:hover{
-    background: #dac860;
-    border-radius: 10%;
-    color: white;
-    transition:  0.5s ease-in-out;
+    letter-spacing: 5px ;
+    color:#837f7f;
 }
-.headImg img{
-    width: 100%;
-    height: 600px;
-    position: relative;
-    filter: blur(3px);
+
+.footer{
+	background: #648b86d8;
+	height: 180px;
+	display: flex;
+    padding-left: 5%;
+    margin-top: 5%;
+    justify-content: space-around;
+   
 }
+.footerLine{
+	height: 3px;
+    width: 250px;
+    color: #000;
+    background: #e8f0ee;
+   
+}
+.connection{
+	margin-top:3%;
+	color: rgb(68, 68, 68);
+	line-height: 30px;
+	font-weight: bold;
+}
+.list{
+    margin-top:6%;
+	color: rgb(68, 68, 68);
+	line-height: 30px;
+	font-weight: bold;
+}
+#toggler{
+    display: none;
+}
+
 
 .card {
     background-color:#efeee7;
@@ -132,14 +155,19 @@ body{
     justify-content: center;
 }
 
-.cardImg{
+.cardImg {
     position: absolute;
     filter: blur(3px);
+    overflow: hidden;
 }
-.cardImg img{
+.cardImg img {
     border-radius: 10px;
     width: 350px;
     height: 400px;
+    transition: all 1s ease 0s;
+}
+.card:hover .cardImg img {
+    transform: scale(1.1);
 }
 .cardDis{
     position: relative;
@@ -147,7 +175,7 @@ body{
     font-weight: bold;
     color: #2c222a;
     font-size: 20px;
-    
+   
 }
 .cardDis button{
     transition: 1s;

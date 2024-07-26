@@ -26,7 +26,7 @@
   showImage(currentIndex);
 
  });
-// 自動輪
+
 
  setInterval(() => {
   nextButton.click();
@@ -36,7 +36,7 @@
 
   window.addEventListener('scroll', function() {
     var scrollPosition = window.scrollY;
-    var fadeInPosition = 300; // 你可以根據需要調整這個位置
+    var fadeInPosition = 300; 
 
     var elements = document.querySelectorAll('.fade-in');
     elements.forEach(function(element) {
