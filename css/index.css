@@ -112,11 +112,11 @@ body{
 .content{
     text-align: center;
     line-height: 50px;
-    
+    margin-top: 10%;
 }
 
 .content h2{
-    margin-top: 10%;
+    
     font-size: 38px;
     font-weight:600;
     color: rgb(175, 175, 175);
@@ -125,7 +125,7 @@ body{
 .content h3{
     font-weight: bold;
     color: rgb(175, 175, 175);
-    margin-bottom: 10%;
+   
 }
 .intro{
     padding-top: 10%;
@@ -136,7 +136,7 @@ body{
     justify-content: center;
     align-items: center;
     background: white;
-    height: 100%;
+    position: relative;
 }
 .intro h1{
     font-weight:600;
@@ -149,10 +149,14 @@ body{
 }
 .introImg{
     width: 25%;
-    height: 5%;
-    border-radius: 50px;
+    height: 100%;
+    position: absolute;
+    right: 0;
 }
-
+.intro img {
+    
+    mask: linear-gradient(90deg, transparent, #fff);
+}
 .provide{
     display: flex;
     flex-direction: column;
@@ -269,3 +273,16 @@ body{
 #toggler{
     display: none;
 }
+
+.wave-container {
+    width: 100%;
+    overflow: hidden;
+    position: absolute;
+   
+}
+
+.wave {
+    width: 50%;
+    
+}
+
