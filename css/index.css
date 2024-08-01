@@ -206,28 +206,35 @@ body{
 
 .carousel-inner img {
     height: 600px;
-    
+    position: relative;  
     width: 600px;
     flex-shrink: 0;
 }
 
 .carousel-control {
     position: absolute;
-    top: 50%;
+    bottom: 0;
     transform: translateY(-50%);
     background-color: rgba(0, 0, 0, 0.5);
     border: none;
     color: white;
     font-size: 2rem;
     cursor: pointer;
+       
 }
 
 .carousel-control.prev {
+    position: absolute;
     left: 10px;
+  
+    font-size: 26px;
+    
 }
 
 .carousel-control.next {
+    position: absolute;
     right: 10px;
+    font-size: 26px;
 }
 /*以上輪播*/
 
