@@ -1,30 +1,37 @@
 @media (max-width: 575.98px){
-   
+   body,html{
+    overflow-x: hidden;
+   }
     .headerham {
-        position: relative;
+        position: fixed;
         height: 44px;
-        padding: 0 16px;
+      
         display: block;
-        margin-right: 10px;
-        border-radius: 15%;
-        z-index: 1000; /* 确保它在其他元素之上 */
+        width: 100%;
+        opacity: 0.;
+        z-index: 1000; 
+        padding-bottom: 20px;
+       background: #fefbfb;
     }
-
+.desktop{
+    display: none;
+}
 .hamburger-container {
     width: 40px;
     height: 40px;
     display: block;
     position: absolute;
-    top: -10px;
+   
     z-index: 7000;
 }
 .hamburger-container span {
     display: block;
     height: 1px;
-    background: #000;
+    background: #2a2a2a;
     position: relative;
     transition: transform .3s ease-in-out, top .3s ease-in-out .3s;
-    
+    left: 20px;
+    top: 30px;
 }
 #toggler:checked + label .hamburger-container span:nth-child(1) {
     transform: rotate(45deg);
@@ -41,15 +48,16 @@
 }
 #burger:checked ~ .mobile {
     display: block;
+   
 }
 .nav-items {
-    background-color: #eae7d1;
+    background-color: #f1dfd0d3;
     color: #000;
     width: 100%;
     height: 100vh;
     position: absolute;
     top: -100%;
-    left:5px;
+    left: -5%;
     transform: scaleY(0);
     transition: transform .3s ease-in-out .3s, opacity .3s ease-in-out .3s;
     transform-origin: 50% 0;
@@ -57,33 +65,33 @@
     border-radius: 10px;
     z-index: 600;
     display: block;
+   
+    
+  
 }
 #toggler:checked ~ .nav-items {
     transform: scaleY(1);
     opacity: 1;
+   
 }
-.mobile a{
-    font-size: 36px;
+.nav-items a{
+    font-size: 24px;
     text-decoration: none;
     color: #837f7f;
-    margin-right: 10%;
+  
 }
 .nav-items ul {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    text-align: center;
     margin-top: 40%;
-    
+    width: 100%;
 }
 .nav-items ul li {
     line-height: 60px;
     font-weight: bold;
-    margin-right: 80%;
-    height: 100%;
-    width: 100%;
-    position: relative;
-    color: #000  ;
-    line-height: 60px;
-    
+
 }
 .nat-items li a{
     font-size: 650px;
@@ -93,21 +101,7 @@
 }
 /*以上漢堡*/
 
-.headImg img{
-    width: 100%;
-    height:80%;
-    position: absolute;
-    top: -0px;
-}
-.container{
-    margin-top: 100%;
-}
 
-.head ul{
-    position:relative;
-    top: 75px;
-    
-}
 .desktop ul li{
     margin-right: 70px;
 }
@@ -119,9 +113,9 @@
 .headTitle{
     position: relative;
     z-index: 100;
-    width: 45%;
-    top: 250px;
-    right: 100px;
+   
+
+    
 }
 .headTitle h1{
     font-size: 36px;
@@ -131,32 +125,36 @@
     text-decoration: none;
     color: rgb(49, 49, 46);
     font-weight: bold;
-    height: 100px;
     border: 1px solid #837f7f;
-
-    
     border-radius: 10%;
    
 }  
-.container{
-    margin-top: 120%;
-    
+
+.content{
+    margin-right: 5px;
+    margin-left: 5px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
-.content {
-    margin-bottom: 20%;
-}
+
+
 .content h2{
     font-size: 16px;
     
 }
 .content h3{
-    font-size: 16px;
+    font-size: 14px;
    
+   text-align: center;
 }
+
 .intro {
-    margin:20% 0 20% 0 ;
+    
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
 }
 .intro img{
     width: 200px;
@@ -165,12 +163,15 @@
 .intro h1{
     margin: 0 auto;
     margin-top: 30px;
-    
+    font-size: 16px;
+    width: 350px;
+    text-align: center;
 }
 
 .provide h2{
     font-size: 20px;
     width: 340px;
+    line-height: 42px;
 }
 .locations{
     display: flex;
@@ -180,7 +181,9 @@
 .carousel{
     width: 360px;
 }
-
+.carousel img{
+    width: 100%;
+}
 .section {
     width: 340px;
 }
@@ -206,9 +209,24 @@
     justify-content: center;
     align-items: center;
     height: 100%;
+    margin-top: 60px;
 }
 .list{
     text-align: center;
     margin-bottom: 10%;
+    color: #837f7f;
+    font-size: 12px;
 }
+}
+.mobile{
+    display: none;
+}
+
+
+
+.photo{
+    font-size: 36px;
+    font-weight: bold;
+    color: #837f7f;
+    text-align: center;
 }

@@ -70,6 +70,7 @@ body{
 }
 
 .headTitle{
+    position: relative;
     background-color: #fdeeedd3;
     height: 500px;
     display: flex;
@@ -137,12 +138,13 @@ body{
     align-items: center;
     background: white;
     position: relative;
+    box-shadow: 20px 20px 20px rgba(88, 88, 76, 0.2);
 }
 .intro h1{
     font-weight:600;
     color: rgb(175, 175, 175);
     font-size: 24px;
-    margin-right: 10%;
+   
     width: 750px;
     line-height: 36px;
     
@@ -182,7 +184,9 @@ body{
 .provideImg{
     display: flex;
 }
-
+.photo{
+    margin-top: 10%;
+}
 /*輪播*/
 
 .carousel {
@@ -192,7 +196,7 @@ body{
     max-width: 600px;
     margin: 0 auto;
     margin-top: 10%;
-   
+  
 }
 
 .carousel-inner {
@@ -274,15 +278,33 @@ body{
     display: none;
 }
 
-.wave-container {
-    width: 100%;
-    overflow: hidden;
-    position: absolute;
-   
-}
+
 
 .wave {
     width: 50%;
     
 }
 
+.linee{
+    
+    width: 100px;
+    height: 100px;
+    background: deepskyblue;
+    animation: jump 3s cubic-bezier(.6,-0.47,.63,1) forwards;
+
+}
+
+.wave1{
+    position: absolute;
+    
+    bottom: 0;
+    left: 0; 
+}
+.wave2{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.attendClass{
+    background: rgb(255, 251, 241);
+}
