@@ -1,6 +1,6 @@
 body{
     overflow-x: hidden;
-    background-color: #fde3ccd3;
+    background: rgb(255, 251, 241);
     
 }
 .nav-items{
@@ -8,9 +8,9 @@ body{
 }
 .line{
     height: 3px;
-    width: 300px;
+    width: 100%;
     
-    background: #f6d2ad;
+    background: #cbd3f5;
    
 }
 .head{
@@ -25,7 +25,7 @@ body{
     background-color: #f9dbc0d3;
     height: 60px;
     width: 100%;
-   z-index: 6000;
+   z-index: 9000;
 }
 .desktop img{
     width: 100px;
@@ -129,6 +129,7 @@ body{
     margin-left: 5px;
     writing-mode: vertical-rl;
     font-size: 16px;
+    
 }
 .hidden{
     display: none;
@@ -210,3 +211,9 @@ body{
     display: none;
 }
 
+.cardMobile{
+    display: none;
+}
+.textMobile{
+    display: none;
+}
