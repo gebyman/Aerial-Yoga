@@ -203,6 +203,7 @@ body{
 .photo{
     margin-top: 10%;
 }
+
 /*輪播*/
 
 .carousel {
@@ -329,4 +330,10 @@ body{
 }
 .attendClass{
     background: rgb(249, 246, 240);
+}
+.attendClass h1{
+    font-size: 36px;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(175, 175, 175);
 }
