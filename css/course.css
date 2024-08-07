@@ -1,6 +1,6 @@
 body{
     overflow-x: hidden;
-    background-color: #fde3ccd3;
+    background-color: #f9f3edd3;
     
 }
 .nav-items{
@@ -133,7 +133,7 @@ body{
 
 .courseOne{
     display: flex;
-    background-color: #fde3ccd3;
+    background-color: #f9f3edd3;
     justify-content: center;
     text-align: center;
     padding-top: 5%;
@@ -148,6 +148,10 @@ body{
     padding-right: 60px;
     color: #837f7f;
     line-height: 50px;
+}
+.courseOneText h1{
+  font-size: 36px;
+  margin-top: 10%;
 }
 .courseOneText h2{
     width: 600px;
@@ -181,6 +185,10 @@ body{
     color: #837f7f;
     line-height: 50px;
 }
+.courseTwoText h1{
+    font-size: 36px;
+    margin-top: 10%;
+  }
 .courseTwoText h2{
     width: 600px;
     margin-top: 60px;
@@ -196,7 +204,7 @@ body{
 
 .courseThree{
     display: flex;
-    background-color: #fde3ccd3;
+    background-color: #f9f3edd3;
     justify-content: center;
     text-align: center;
     padding-top: 5%;
@@ -213,6 +221,10 @@ body{
     color: #837f7f;
     line-height: 50px;
 }
+.courseThreeText h1{
+    font-size: 36px;
+    margin-top: 10%;
+  }
 .courseThreeText h2{
     width: 600px;
     margin-top: 60px;

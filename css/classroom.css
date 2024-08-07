@@ -1,7 +1,7 @@
 body{
     overflow-x: hidden;
     background-color: #fde3ccd3;
-    
+   
 }
 .nav-items{
     display: none;
@@ -97,6 +97,7 @@ body{
     padding-left: 5%;
     margin-top: 5%;
     justify-content: space-around;
+    padding-bottom: 5px;
    
 }
 .footerLine{
@@ -142,10 +143,14 @@ body{
     cursor: pointer;
    border-radius: 10px;
 }
-
+.section{
+   margin-top: 10%;
+}
 .section h2{
     text-align: center;
     font-size: 28px;
+    font-weight: bold;
+    color:#837f7f;
     margin-top: 5%;
     margin-bottom: 5%;
 }
@@ -153,18 +158,21 @@ body{
 .locations{
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .cardImg {
     position: absolute;
     filter: blur(3px);
     overflow: hidden;
+    
 }
 .cardImg img {
     border-radius: 10px;
     width: 350px;
     height: 400px;
     transition: all 1s ease 0s;
+   
 }
 .card:hover .cardImg img {
     transform: scale(1.1);
@@ -186,34 +194,3 @@ body{
     transition: 0.2s ease-in-out;
 }
 
-.footer{
-	background: #648b86d8;
-	height: 180px;
-	display: flex;
-    padding-left: 5%;
-    margin-top: 5%;
-    justify-content: space-around;
-    padding-bottom: px;
-}
-.footerLine{
-	height: 3px;
-    width: 250px;
-    color: #000;
-    background: #e8f0ee;
-   
-}
-.connection{
-	margin-top:3%;
-	color: rgb(68, 68, 68);
-	line-height: 30px;
-	font-weight: bold;
-}
-.list{
-    margin-top:6%;
-	color: rgb(68, 68, 68);
-	line-height: 30px;
-	font-weight: bold;
-}
-#toggler{
-    display: none;
-}
