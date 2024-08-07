@@ -167,7 +167,9 @@
     width: 350px;
     text-align: center;
 }
-
+.provide{
+    display: none;
+}
 .provide h2{
     font-size: 20px;
     width: 340px;
@@ -211,13 +213,20 @@
     height: 100%;
     margin-top: 60px;
 }
+.connection h1{
+    text-decoration: none;
+    color: #837f7f;
+}
+.connection{
+    margin-top: 10%;
+}
 .list{
     text-align: center;
     margin-bottom: 10%;
     color: #837f7f;
     font-size: 12px;
 }
-}
+
 .mobile{
     display: none;
 }
@@ -229,4 +238,5 @@
     font-weight: bold;
     color: #837f7f;
     text-align: center;
+}
 }

@@ -131,7 +131,13 @@
  }  
  
  
- 
+ .connection h1{
+    text-decoration: none;
+    color: #837f7f;
+}
+.connection{
+    margin-top: 10%;
+}
  
  .footer{
      display: flex;
