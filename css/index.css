@@ -200,8 +200,8 @@ body{
 .provideImg{
     display: flex;
 }
-.photo{
-    margin-top: 10%;
+.photo {
+    padding-top: 10%;
 }
 
 /*輪播*/
@@ -336,4 +336,63 @@ body{
     text-align: center;
     font-weight: bold;
     color: rgb(175, 175, 175);
+}
+.conversation{
+    box-sizing: border-box;
+    width: 100%;
+    height: min-content;
+    display: flex;
+    
+    
+    align-items: center;
+    padding: 100px;
+    background-color: #faecdfd3;
+    overflow: hidden;
+    align-content: center;
+    flex-wrap: nowrap;
+    gap: 0;
+    
+    border-radius: 0px 0px 0px 0px;
+}
+.conversation img{
+    border-radius: 50px;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+.conversationImg{
+    background: #f9e5af;
+    width: 100%;
+    border-radius: 15px;
+    align-items: center;
+    color: #777777;
+    height: 100%;
+}
+.conversationImg h1{
+    margin-top: 15%;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-weight: bold;
+    background: #f5f2e2;
+    border-radius: 15px;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.conversationImg h3{
+    margin-top: 20%;
+    margin-left: 80%;
+    font-weight: bold;
+}
+.box1{
+    box-sizing: border-box;
+    flex: 1;
+    width: 1px;
+    height: 400px;
+    display: flex;
+    padding: 40px;
+    background-color: #f9f7e8;
+    border-radius: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
