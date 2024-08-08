@@ -6,7 +6,8 @@
     <title>Aerial Yoga</title>
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/cssreset.css">
-    
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
    
     
    
@@ -93,21 +94,21 @@
         
         </div>
         <div class="conversation">
-            <div class="box1">
+            <div class="box1" data-aos="zoom-in">
                 <div class="conversationImg">
                 <img src="img/small.jpg" alt="">
                 <h1>這瑜珈課程真棒，幫助我找回內心的平靜。</h1>
                 <h3>學員:美美</h3>
             </div>
             </div>
-            <div class="box1">
+            <div class="box1" data-aos="zoom-in">
                 <div class="conversationImg">
                     <img src="img/small.jpg" alt="">
                     <h1>我身體變得更加柔韌，感覺全新的自己。</h1>
                     <h3>學員:丞林</h3>
                 </div>
             </div>
-            <div class="box1">
+            <div class="box1" data-aos="zoom-in">
                 <div class="conversationImg">
                     <img src="img/small.jpg" alt="">
                     <h1>我再也不能沒有瑜珈，它改變了我的生活。</h1>
@@ -143,7 +144,11 @@
             <h3>空中瑜珈|綢吊|空中環</h3>
         </div>
     </div>
-    
+    <script>
+        AOS.init({
+            duration:800,
+        });
+      </script>
     <script src="js/carousel.js"></script>
 </body>
 </html>

@@ -227,7 +227,10 @@ body{
     width: 600px;
     flex-shrink: 0;
 }
-
+.carousel img{
+    width: 100%;
+    height: 100%;
+}
 .carousel-control {
     position: absolute;
     bottom: 0;
