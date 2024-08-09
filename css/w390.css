@@ -213,6 +213,7 @@
     align-items: center;
     height: 100%;
     margin-top: 60px;
+    padding-left: 0%;
 }
 .connection h1{
     text-decoration: none;
@@ -220,6 +221,7 @@
 }
 .connection{
     margin-top: 10%;
+    text-align: center;
 }
 .list{
     text-align: center;

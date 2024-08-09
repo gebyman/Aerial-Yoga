@@ -166,6 +166,7 @@
      align-items: center;
      height: 100%;
      margin-top: 60px;
+     padding-left: 0%;
  }
  .list{
      text-align: center;
@@ -173,7 +174,13 @@
      color: #837f7f;
      font-size: 12px;
  }
-
+ .connection{
+	margin-top:5%;
+	color: rgb(68, 68, 68);
+	line-height: 30px;
+	font-weight: bold;
+    text-align: center;
+}
 
  .text{
      display: block;
