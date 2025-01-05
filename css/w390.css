@@ -140,6 +140,15 @@
     align-items: center;
 }
 
+.topText{
+    position: absolute;
+ 
+    font-size: 32px;
+    font-weight: bold;
+    color: #eec0c0;
+   letter-spacing: 15px;
+    padding: 20px;
+}
 
 .content h2{
     font-size: 16px;
@@ -179,7 +188,10 @@
     display: flex;
     flex-direction: column;   
 }
-
+.attendClass{
+  
+    margin-top: 60%;
+}
 .carousel{
     width: 360px;
 }
@@ -302,7 +314,40 @@
     
 }
 
+.box {
+    max-width: 100%; /* 撐滿寬度 */
+    transform: translate(-50%, -50%) perspective(800px);
+}
 
+.card2 {
+    width: 75%; /* 再次縮小卡片大小 */
+    max-width: 200px; /* 限制最大寬度 */
+    height: 75%; /* 縮小卡片高度 */
+    max-height: 200px; /* 限制最大高度 */
+   top: 50%;
+   left: 50%;
+   transform-origin: center;
+}
 
+.card2:nth-child(1) {
+    transform: rotateY(0deg) translateZ(100px);
+}
+
+.card2:nth-child(2) {
+    transform: rotateY(120deg) translateZ(100px);
+}
+
+.card2:nth-child(3) {
+    transform: rotateY(240deg) translateZ(100px);
+}
+  
+  
+@keyframes animate {
+    0% {
+      transform: perspective(800px) rotateY(0deg);
+    }
+    100% {
+      transform: perspective(800px) rotateY(360deg);
+    }}
 
 }

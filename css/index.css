@@ -16,7 +16,7 @@ body{
 .head{
     display: flex;   
     flex-direction: column;
-    
+    align-items: center ;
 }
 .desktop{
     position:fixed;
@@ -200,9 +200,7 @@ body{
 .provideImg{
     display: flex;
 }
-.photo {
-    padding-top: 10%;
-}
+
 
 /*輪播*/
 
@@ -212,7 +210,7 @@ body{
     overflow: hidden;
     max-width: 600px;
     margin: 0 auto;
-    margin-top: 10%;
+    
   margin-bottom: 5%;
 }
 
@@ -331,14 +329,14 @@ body{
     top: 0;
     right: 0;
 }
-.attendClass{
-    background: rgb(249, 246, 240);
-}
+
 .attendClass h1{
     font-size: 36px;
     text-align: center;
     font-weight: bold;
     color: rgb(175, 175, 175);
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 .conversation{
     box-sizing: border-box;
@@ -418,3 +416,73 @@ body{
     width: 50px;
     height: 50px;
 }
+
+.topText{
+    position: absolute;
+ 
+    font-size: 66px;
+    font-weight: bold;
+    color: #eec0c0;
+   letter-spacing: 100px;
+    padding: 20px;
+}
+
+.top{
+    display: flex;
+    width: 90%;
+    height: 70vh;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 3%;
+    position: relative;
+}
+.card{
+    flex: 1;
+    height: 100%;
+    object-fit: cover;
+    
+    transition: all 0.4s ease;
+}
+
+.card img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all 0.4s ease;
+    filter: grayscale(100%);
+}
+.card:nth-child(odd){
+    transform: translateY(-20px);
+}
+.card:nth-child(even){
+    transform: translateY(20px);
+}
+.top:hover .card:not(:hover){
+    filter: grayscale(100%);
+    flex: 0.5;
+}
+.card:hover{
+    flex: 1;
+    transform: translateY(0);   
+}
+.card:hover img{
+    filter: grayscale(0%);
+}
+
+
+
+  
+.box {
+    position: relative; /* 父容器設置為相對定位 */
+    margin: 0 auto; /* 水平置中 */
+    width: 100%; /* 使用全寬度 */
+    max-width: 600px; /* 限制最大寬度 */
+    height: 400px; /* 調整高度 */
+    transform-style: preserve-3d;
+    transform: perspective(1200px); /* 增加透視效果 */
+    animation: animate 30s linear infinite;
+}
+
+ 
